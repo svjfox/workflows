@@ -9,8 +9,8 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 587
-          username: ${{ secrets.svjfox@gmail.com }}
-          password: ${{ secrets.github_pussword }}
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
           subject: "ALERT, WE HAVE DETECTED HOT SINGLE COMMITS IN YOUR AREA ${{github.repository}}"
           body: |
             Hello team,
