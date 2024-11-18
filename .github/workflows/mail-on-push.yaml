@@ -20,5 +20,5 @@ jobs:
             Hot single commit created by ${{github.event.pusher.name}}
 
             Changes:
-          to: "svjfox@gmail.com"
+          to: "juri.vaitmaa@tthk.ee"
           from: "Github actions for ${{github.repository}}"
